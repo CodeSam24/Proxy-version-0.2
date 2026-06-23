@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy - Train Smarter</title>
+    <link rel="stylesheet" href="styles.css"> 
+    
+    <style>
+        /* Bulletproof Layout Overrides */
+        .hero-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 140px auto 60px auto; 
+            padding: 0 40px;
+            gap: 60px;
+        }
+
+        .hero-text {
+            flex: 1;                 
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start !important; 
+            text-align: left !important;        
+        }
+
+        .hero-image {                
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            text-align: left !important;       
+        }
+
+        .hero-subtitle {
+            color: #8a8f98;          
+            font-size: 1.1rem;
+            margin-bottom: 35px;
+            max-width: 480px;
+            text-align: left !important;
+        }
+
+        .hero-cta-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .hero-badges {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">PROXY</div>
+        <nav class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+        </nav>
+        <div class="nav-buttons">
+            <button class="btn-login">Log in</button>
+            <button class="btn-started">Get Started</button>
+        </div>
+    </header>
+
+    <main class="hero-container">
+        
+        <section class="hero-text">
+            <h1 class="hero-title">
+                Train smarter.<br>
+                Track everything.<br>
+                <span class="accent-text">Transform yourself.</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                The all-in-one workout, nutrition, and progress tracker powered by AI.
+            </p>
+            
+            <div class="hero-cta-buttons">
+                <button class="btn-primary">Get Started Free &rarr;</button>
+                <button class="btn-secondary">See How It Works</button>
+            </div>
+            
+            <div class="hero-badges">
+                <span class="badge">🏋️‍♂️ Workout Tracking</span>
+                <span class="badge">🥑 Nutrition & Macros</span>
+                <span class="badge">✨ AI Coaching</span>
+            </div>
+        </section>
+
+        <section class="hero-image">
+            <img src="placeholder-dashboard.png" alt="Proxy Dashboard Preview" class="mockup-img">
+        </section>
+
+    </main>
+
+</body>
+</html>
